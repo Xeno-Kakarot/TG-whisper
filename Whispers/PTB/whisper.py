@@ -1,6 +1,6 @@
-# SOURCE https://github.com/Team-ProjectCodeX
-# CREATED BY https://t.me/O_okarma
-# PROVIDED BY https://t.me/ProjectCodeX
+# SOURCE https://github.com/dilshadhasnain07
+# CREATED BY https://t.me/hasnainkk
+# PROVIDED BY https://t.me/ANIME_NETWORK07
 # ➥ @Yaemiko_vbot ʏᴏᴜʀ ᴍᴇssᴀɢᴇ @ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ᴜsᴇʀɪᴅ
 # ➥ @Yaemiko_vbot @ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ᴜsᴇʀɪᴅ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
 

@@ -1,0 +1,20 @@
+{
+    "name": "Yae Miko",
+    "description": "A versatile Telegram Group Management Bot",
+    "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
+    "keywords": [["telegram", "modular", "group", "management", "Miko"],],
+    "repository": "https://github.com/dilshadhasnain07/TG-WHISPER",
+    "stack": "heroku-22",
+       "addons": [
+      {
+         "plan": "heroku-postgresql",
+         "options": {
+            "version": "12"
+         }
+      }
+       ],
+    "env": {
+      }
+   }
+}
+        

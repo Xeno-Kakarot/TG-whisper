@@ -1,19 +1,19 @@
 {
-   "name": "Yae Miko",
-   "description": "A versatile Telegram Group Management Bot.",
-   "logo": "https://telegra.ph/file/4d370b478d90d98709398.jpg",
-   "keywords": ["telegram", "modular", "group", "management", "Miko"],
-   "repository": "https://github.com/dilshadhasnain07/TG-whisper",
-   "stack": "heroku-22",
-   "addons": [
-      {
-         "plan": "heroku-postgresql",
-         "options": {
-            "version": "12"
-         }
-      }
-   ],
-   "env": {
+  "name": "Rose bot",
+  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "logo": "https://telegra.ph/file/1925c7a2f601539ccde7a.png",
+  "keywords": [
+    "telegram",
+    "best",
+    "group",
+    "manager",
+    "3",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/dilshadhasnain07/TG-whisper",
+  "env": {
       "API_ID": {
          "description": "Obtain this value from my.telegram.org/apps.",
          "required": true,
@@ -36,4 +36,24 @@
          "value": ""
       }
    }
-}
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+  "stack": "heroku-22",
+  "buildpacks": [{
+              "url": "heroku/python"
+    
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+  
+  
+

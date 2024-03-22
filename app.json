@@ -1,21 +1,39 @@
 {
-    "name": "Yae Miko",
-    "description": "A versatile Telegram Group Management Bot",
-    "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
-    "keywords": [["telegram", "modular", "group", "management", "Miko"],],
-    "repository": "https://github.com/dilshadhasnain07/TG-WHISPER",
-    "stack": "heroku-22",
-    "buildpack": [{
-        "URL": "heroku/python"
-       "addons": [
+   "name": "Yae Miko",
+   "description": "A versatile Telegram Group Management Bot.",
+   "logo": "https://telegra.ph/file/4d370b478d90d98709398.jpg",
+   "keywords": ["telegram", "modular", "group", "management", "Miko"],
+   "repository": "https://github.com/dilshadhasnain07/TG-whisper",
+   "stack": "heroku-22",
+   "addons": [
       {
          "plan": "heroku-postgresql",
          "options": {
             "version": "12"
          }
       }
-       ],
-    "env": {
+   ],
+   "env": {
+      "API_ID": {
+         "description": "Obtain this value from my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Obtain this value from my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },
+       "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": "6346273488"
+      },
+             },
+      "TOKEN": {
+         "description": "Bot token obtained from @BotFather on Telegram.",
+         "required": true,
+         "value": ""
       }
    }
-        
+}

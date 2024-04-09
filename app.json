@@ -15,7 +15,7 @@
          "options": {
             "version": "12"
          }
-   ],
+         
    "env": {
       "API_ID": {
          "description": "Obtain this value from my.telegram.org/apps.",

@@ -5,7 +5,7 @@
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
    "repository": "https://github.com/hasnainkkk07/TG-whisper",
    "stack": "heroku-22",
-   "buildpacks": 
+   "buildpacks": [
           {
               "url": "heroku/python"
           },

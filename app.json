@@ -8,6 +8,10 @@
    "addons": [
       {
          "plan": "heroku-postgresql",
+         "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
          "options": {
             "version": "12"
          }

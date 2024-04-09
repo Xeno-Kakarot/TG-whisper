@@ -15,7 +15,6 @@
          "options": {
             "version": "12"
          }
-      }
    ],
    "env": {
       "API_ID": {

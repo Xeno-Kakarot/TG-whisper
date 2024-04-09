@@ -6,9 +6,10 @@
    "repository": "https://github.com/hasnainkkk07/TG-whisper",
    "stack": "heroku-22",
    "buildpacks": [
-          {
+      {
               "url": "heroku/python"
-          },
+      },
+      
    "addons": [
       {
          "plan": "heroku-postgresql",
